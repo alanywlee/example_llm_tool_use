@@ -1,0 +1,6 @@
+{
+  "allowed_tools": [
+    "rag__rag_search",
+    "rag__rag_search_and_summarize"
+  ]
+}
