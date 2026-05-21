@@ -1,0 +1,23 @@
+{
+  "servers": [
+    {
+      "name": "rag",
+      "transport": "streamable_http",
+      "url": "http://localhost:8000/mcp",
+      "enabled": true,
+      "tool_allowlist": [
+        "rag_search",
+        "rag_search_and_summarize"
+      ]
+    },
+    {
+      "name": "calculator",
+      "transport": "streamable_http",
+      "url": "http://localhost:8001/mcp",
+      "enabled": false,
+      "tool_allowlist": [
+        "calculate"
+      ]
+    }
+  ]
+}
